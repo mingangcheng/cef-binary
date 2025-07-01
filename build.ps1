@@ -14,7 +14,7 @@ param(
 	[string] $CefBinaryDir = "../cefsource/chromium/src/cef/binary_distrib/",
 
 	[Parameter(Position = 3)]
-	$CefVersion = "132.3.1+g144febe+chromium-132.0.6834.83",
+	$CefVersion = "138.0.15+gd0f1f64+chromium-138.0.7204.50",
 
 	[ValidateSet("tar.bz2","zip","7z")]
 	[Parameter(Position = 4)]
@@ -746,7 +746,7 @@ try
 		{
 			"nupkg"
 			{
-				VSX v142 $platform
+				VSX v143 $platform
 			}
 			"vs2022"
 			{
